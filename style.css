@@ -6,25 +6,26 @@
 
 .backraund-hopkins{
     background-color:rgb(3, 207, 214) ;
-    height: 400px;
+    height: auto;
     padding-top: 90px;
+    padding-bottom: 90px;
     text-align-last: center;
 }
 
 .backraund-svg{
-    height: 200px;
+    height: auto;
     text-align-last: center;
     background-color:rgb(3, 207, 214) ;
     padding-top: 80px;
-
 }
 
 .backraund-two {
     background-color: rgb(240, 238, 238);
-    height: 530px;
+    height: auto;
     text-align-last: center;
     margin-top: 0px;
     padding-top: 80px;
+    padding-bottom: 60px;
 }
 
 .btn {
@@ -40,20 +41,20 @@
 .btn:hover {
     border: 2px solid white;
 }
+
 .col {
     min-width: initial !important;
-    
 }
+
 .col-3 {
     padding: 0 !important;
     flex: 0 0 25%;
     max-width: 25%;
-    max-height: 380px;   
+    max-height: 380px; 
 }
 
 .divider {
     height: 60px;
-    
 }
 
 .divider-load{
@@ -65,9 +66,6 @@
 
 .intro__inner{
     margin-top: 200px;
-
-    
-   
 }
 
 .intro__title{
@@ -78,21 +76,16 @@
 .intro-text {
     text-transform: none;
     font-weight: 300;
-    
 }
 
 .icons {
     list-style-type: none;
-    margin-top: 25px;
-
 }
 
-
 .icons__item{
-    margin-right: 15px; 
+    margin-right: 10px; 
     color: white !important;
-    font-size: 30px;
-
+    font-size: 20px;
 }
 
 .features {
@@ -110,7 +103,6 @@
     height: 100vh;
     background: url(https://images.unsplash.com/photo-1509227035009-4bef0b738dd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80)center no-repeat;
     background-size: cover;
-
 }
 
 .logo {
@@ -125,9 +117,9 @@
 }
 
 .footer-text {
- color: white !important;
- font-weight: 200;
- font-size: 16px;
+    color: white !important;
+    font-weight: 200;
+    font-size: 16px;
 }  
 
 .footer-text:-webkit-any-link {
@@ -136,12 +128,10 @@
 
 .nav-link.active{
     color:rgb(3, 207, 214) !important;
-
 }
 
 .navbar-nav {
     flex-direction: initial !important;
-
 }
 
 .nav-link {
@@ -158,6 +148,7 @@
     margin-right: 0;
     margin-left: 0;
 }
+
 .professional{
     margin: 20px;
     text-transform: none;
@@ -173,7 +164,6 @@
     margin: 0 0 40px 20px;
     border-bottom: 3px solid;
     padding-bottom: 7px;
-    
     border-image: linear-gradient(to right,rgb(3, 207, 214) 75%, rgb(150, 149, 149) 25%) 1 1;
 }
 
@@ -186,7 +176,6 @@
     margin: 0 0 40px 20px;
     border-bottom: 3px solid;
     padding-bottom: 7px;
-   
     border-image: linear-gradient(to right,rgb(3, 207, 214) 90%, rgb(150, 149, 149) 10%) 1 1;
 }
 
@@ -199,7 +188,6 @@
     margin: 0 0 40px 20px;
     border-bottom: 3px solid;
     padding-bottom: 7px;
-    
     border-image: linear-gradient(to right,rgb(3, 207, 214) 65%,  rgb(150, 149, 149) 35%) 1 1;
 }
 
@@ -207,7 +195,6 @@
     color: white;
     font-size: 25px !important;
     text-align-last: center;
-    
 }
 
 .text-work {
@@ -215,15 +202,15 @@
     text-align: center;
     color: rgb(116, 123, 129);
     font-size: 12px;
-
 }
 
 .touch{
     background-color: rgb(240, 238, 238);
-    height: 600px;
+    height: auto;
     text-align-last: center;
     margin-top:0px;
     padding-top:50px;
+    padding-bottom: 50px;
 }
 
 .two-text{
@@ -253,48 +240,12 @@
     float: unset;
     vertical-align: text-top;
     color: white !important;
-
 } 
-
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-    
-}
-
-@media only screen and (max-width : 1199px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-}
-
-@media only screen and (max-width : 991px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
-}
-
-@media only screen and (max-width : 767px) {
-
-}
-
-/* Extra Small Devices, Pfones */
-@media only screen and (max-width : 480px) {
-
-}
 
 /* About */
 
 .end{
   margin-top: 150px;
-
 }
 
 .foto-about{
@@ -302,7 +253,6 @@
     flex-direction: column;
     justify-content: center;
     height: 400px;
-    
 }
 
 .foto-me{
@@ -310,11 +260,9 @@
    flex-direction: column;
    justify-content : center;
    height: 600px;
-
 }
 
 .text-display1{
     padding-top: 150px;
     color: white;
-    
 }
