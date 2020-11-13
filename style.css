@@ -4,18 +4,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.backraund-hopkins{
-    background-color:rgb(3, 207, 214) ;
+.backraund-hopkins {
+    background-color: rgb(3, 207, 214);
     height: auto;
     padding-top: 90px;
     padding-bottom: 90px;
     text-align-last: center;
 }
 
-.backraund-svg{
+.backraund-svg {
     height: auto;
     text-align-last: center;
-    background-color:rgb(3, 207, 214) ;
+    background-color: rgb(3, 207, 214);
     padding-top: 80px;
 }
 
@@ -29,13 +29,13 @@
 }
 
 .btn {
-    background-color:rgb(3, 207, 214) !important;
+    background-color: rgb(3, 207, 214) !important;
     border-radius: 0mm !important;
     color: white !important;
     text-transform: uppercase;
     width: 170px;
     height: 45px;
-    padding-top: 12px !important;   
+    padding-top: 12px !important;
 }
 
 .btn:hover {
@@ -50,25 +50,25 @@
     padding: 0 !important;
     flex: 0 0 25%;
     max-width: 25%;
-    max-height: 380px; 
+    max-height: 380px;
 }
 
 .divider {
     height: 60px;
 }
 
-.divider-load{
+.divider-load {
     background-color: rgb(240, 238, 238);
     height: 50px;
     padding-top: 15px;
     font-size: 12px;
 }
 
-.intro__inner{
+.intro__inner {
     margin-top: 200px;
 }
 
-.intro__title{
+.intro__title {
     font-weight: 500;
     text-transform: none;
 }
@@ -82,8 +82,8 @@
     list-style-type: none;
 }
 
-.icons__item{
-    margin-right: 10px; 
+.icons__item {
+    margin-right: 10px;
     color: white !important;
     font-size: 20px;
 }
@@ -109,9 +109,9 @@
     margin-left: 30px;
 }
 
-.footer{
+.footer {
     height: 200px;
-    background-color:black;
+    background-color: black;
     color: white;
     padding-top: 60px;
 }
@@ -120,14 +120,14 @@
     color: white !important;
     font-weight: 200;
     font-size: 16px;
-}  
+}
 
 .footer-text:-webkit-any-link {
     color: white !important;
 }
 
-.nav-link.active{
-    color:rgb(3, 207, 214) !important;
+.nav-link.active {
+    color: rgb(3, 207, 214) !important;
 }
 
 .navbar-nav {
@@ -149,13 +149,13 @@
     margin-left: 0;
 }
 
-.professional{
+.professional {
     margin: 20px;
     text-transform: none;
     font-weight: 600;
 }
 
-.professional-uiux{
+.professional-uiux {
     font-size: 15px;
     letter-spacing: .05em;
     font-weight: 500;
@@ -164,10 +164,10 @@
     margin: 0 0 40px 20px;
     border-bottom: 3px solid;
     padding-bottom: 7px;
-    border-image: linear-gradient(to right,rgb(3, 207, 214) 75%, rgb(150, 149, 149) 25%) 1 1;
+    border-image: linear-gradient(to right, rgb(3, 207, 214) 75%, rgb(150, 149, 149) 25%) 1 1;
 }
 
-.professional-web{
+.professional-web {
     font-size: 15px;
     letter-spacing: .05em;
     font-weight: 500;
@@ -176,10 +176,10 @@
     margin: 0 0 40px 20px;
     border-bottom: 3px solid;
     padding-bottom: 7px;
-    border-image: linear-gradient(to right,rgb(3, 207, 214) 90%, rgb(150, 149, 149) 10%) 1 1;
+    border-image: linear-gradient(to right, rgb(3, 207, 214) 90%, rgb(150, 149, 149) 10%) 1 1;
 }
 
-.professional-marketing{
+.professional-marketing {
     font-size: 15px;
     letter-spacing: .05em;
     font-weight: 500;
@@ -188,10 +188,10 @@
     margin: 0 0 40px 20px;
     border-bottom: 3px solid;
     padding-bottom: 7px;
-    border-image: linear-gradient(to right,rgb(3, 207, 214) 65%,  rgb(150, 149, 149) 35%) 1 1;
+    border-image: linear-gradient(to right, rgb(3, 207, 214) 65%, rgb(150, 149, 149) 35%) 1 1;
 }
 
-.text-hopkins{
+.text-hopkins {
     color: white;
     font-size: 25px !important;
     text-align-last: center;
@@ -204,16 +204,16 @@
     font-size: 12px;
 }
 
-.touch{
+.touch {
     background-color: rgb(240, 238, 238);
     height: auto;
     text-align-last: center;
-    margin-top:0px;
-    padding-top:50px;
+    margin-top: 0px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.two-text{
+.two-text {
     font-size: 14px;
     letter-spacing: .05em;
     font-weight: 700;
@@ -240,50 +240,132 @@
     float: unset;
     vertical-align: text-top;
     color: white !important;
-} 
+}
 
 /* About */
 
-.end{
-  margin-top: 150px;
+.end {
+    margin-top: 150px;
 }
 
-.foto-about{
+.foto-about {
     background-image: url("https://images.unsplash.com/photo-1553994666-27c8f60c4827?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80");
     flex-direction: column;
     justify-content: center;
     height: 400px;
 }
 
-.foto-me{
-   background-image: url("https://images.unsplash.com/photo-1504198322253-cfa87a0ff25f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80");
-   flex-direction: column;
-   justify-content : center;
-   height: 600px;
+.foto-me {
+    background-image: url("https://images.unsplash.com/photo-1504198322253-cfa87a0ff25f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80");
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
 }
 
-.text-display1{
+.text-display1 {
     padding-top: 150px;
     color: white;
 }
 
+.container-xl{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 /* Home */
 
 .home-background1 {
-    background-color:  rgb(240, 238, 238);
+    background-color: rgb(240, 238, 238);
     padding-top: 70px;
     padding-bottom: 50px;
 }
 
 .home-img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
-   
+
 }
 
 /* Contact */
 
-.contact-fon{
+.contact-fon {
     background-color: rgb(240, 238, 238);
     height: auto;
+}
+
+@media  (max-width:768px){
+.intro__title{
+    text-transform: none;
+    font-weight: 500;
+    font-size: 25px;
+}
+.intro__inner {
+    margin-top: 80px;
+}
+.professional {
+    font-weight: 600;
+    font-size: 20px;
+}
+.two-text {
+    font-size: 12px;
+    font-weight: 500;
+}
+.text-hopkins {
+    font-size: 18px !important;
+}
+.svg-text {
+    font-size: 11px !important;
+}
+.backraund-svg {
+    padding-top: 30px;
+}
+.professional-uiux {
+    font-size: 12px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    padding-bottom: 1px;
+
+}
+
+.professional-web {
+    font-size: 12px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    padding-bottom: 1px;
+}
+
+.professional-marketing {
+    font-size: 12px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    padding-bottom: 1px;
+}
+.intro-text {
+    font-size: 11px;
+}
+.text-work {
+    font-size: 7px;
+}
+.divider-load {
+    height: 20px;
+    padding-top: 5px;
+}
+.backraund-two {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.backraund-hopkins {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.touch {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.footer-text {
+    font-size: 10px;
+}
+.smal-text{
+    font-size: 13px;
+}
+
 }
