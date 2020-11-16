@@ -14,9 +14,12 @@
 </head>
 
 <body>
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
     <header class="two-header" id="header">
         <div class="conteiner-fluid">
-            <div class="navbar navbar-nav">
+            <div class="navbar navbar-nav linkk">
                 <a href="index.html">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-triangle-half logo" fill="black"
                         xmlns="http://www.w3.org/2000/svg">
@@ -44,10 +47,11 @@
         </div>
     </header>
     <div class="foto-about">
-        <div class="text-display1 row">
+        <div class="text-display1 row linkk">
             <div class="col-12 justify-content-center">
                 <h1 class="text-center professional" style="letter-spacing: .05em; font-size: 500;">Amelia Woods</h1>
-                <h5 class="text-center smal-text" style="font-weight: 400;">I am Graphic & Web Designer based in New York,
+                <h5 class="text-center smal-text" style="font-weight: 400;">I am Graphic & Web Designer based in New
+                    York,
                     specializing <br> in User Interface Design and Development.</h5>
             </div>
         </div>
@@ -106,10 +110,30 @@
     <div class="row">
         <div class="col-12">
             <h2 class="text-center professional mt-5 pb-3" style="font-weight: 600;">Need a Project?</h2>
-            <p class="text-center smal-text pb-3">Let us know what you're looking for in an agency.We'll take a look and see<br>if
+            <p class="text-center smal-text pb-3">Let us know what you're looking for in an agency.We'll take a look and
+                see<br>if
                 this could be the start of something beautiful.</p>
             <div class="row justify-content-center mt-3 mb-5">
-                <a class="btn unselectable" href="#" id="rent" style="font-size: 14px;">let's talk</a>
+
+                <button type="button" class="btn unselectable" style="font-size: 14px;" data-toggle="modal"
+                    data-target="#exampleModalCentered">
+                    let's talk
+                </button>
+                <div class="modal" id="exampleModalCentered" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                Hello! I am Amelia Woods.
+                                I am Graphic & Web Designer based in New York, specializing
+                                in User Interface Design and Development.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn unselectable" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -156,6 +180,7 @@
         </div>
     </footer>
 
+    <script src="text.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

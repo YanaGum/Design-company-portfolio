@@ -14,9 +14,12 @@
 </head>
 
 <body>
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
     <header class="two-header" id="header">
         <div class="conteiner-fluid">
-            <div class="navbar navbar-nav">
+            <div class="navbar navbar-nav linkk">
                 <a href="index.html">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-triangle-half logo" fill="black"
                         xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +27,7 @@
                             d="M8.065 2.016a.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.162.162 0 0 1-.054.06.115.115 0 0 1-.066.017l-6.856-.017V2a.13.13 0 0 1 .063.016zm-1.043-.45a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767L7.022 1.566z" />
                     </svg>
                 </a>
-                <nav class="nav navbar navbar-expand-md">
+                <nav class="nav navbar navbar-expand-md linkk">
                     <div class="container-fluid">
                         <button type="button" id="but" class="navbar-toggler" data-toggle="collapse"
                             data-target="#navbarSuport" aria-controls="navbarSuport" aria-expanded="false">
@@ -48,7 +51,8 @@
         <div class="row pt-5 pb-5 justify-content-center">
             <div class="col-lg-4 col-sm-12 col-md-6 col-xs-12 pl-5">
                 <h3 class="mb-3 professional" style="font-weight: 600;">Contact Info:</h3>
-                <p class="mb-4 smal-text">To give beginning divide, cattle. Give moving won't, there the abundantly she'd brought
+                <p class="mb-4 smal-text">To give beginning divide, cattle. Give moving won't, there the abundantly
+                    she'd brought
                     air upon. Light hath subdue. Life days creature upon first heaven gathering dry.</p>
 
                 <p class="mb-3" style="font-size: 13px;"><strong>Address:</strong> 10111 Santa Monica Boulevard</p>
@@ -75,7 +79,18 @@
                     </div>
                 </div>
                 <div class="row mt-3 ml-3 mb-5">
-                    <a class="btn unselectable" href="#" id="rent" style="font-size: 14px;">send message</a>
+                    <a class="btn unselectable" href="#" id="rent" style="font-size: 14px;" data-toggle="modal"
+                        data-target=".bd-example-modal-lg">send message</a>
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                Thank you for registering!
+                                Personal data saved.
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -128,7 +143,7 @@
         </div>
     </footer>
 
-
+    <script src="text.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
